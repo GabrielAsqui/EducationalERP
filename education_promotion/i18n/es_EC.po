@@ -1,0 +1,247 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* education_promotion
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-24 02:11+0000\n"
+"PO-Revision-Date: 2019-05-23 21:35-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_EC\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_name
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_academic_year
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_closing_id
+#: model:ir.ui.view,arch_db:education_promotion.view_education_class_division_promotion_result_search
+msgid "Academic Year"
+msgstr "Año académico"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_division_id
+msgid "Class"
+msgstr "Clase"
+
+#. module: education_promotion
+#: model:ir.ui.view,arch_db:education_promotion.view_education_class_division_promotion_result_form
+#: model:ir.ui.view,arch_db:education_promotion.view_education_class_division_promotion_result_tree
+msgid "Class Division"
+msgstr "División de clase"
+
+#. module: education_promotion
+#: model:ir.model,name:education_promotion.model_education_class_division
+msgid "Class room"
+msgstr "Salón de clases"
+
+#. module: education_promotion
+#: model:ir.ui.view,arch_db:education_promotion.education_promotion_form
+msgid "Close Academic Year"
+msgstr "Cierre Año académico"
+
+#. module: education_promotion
+#: selection:education.promotion,state:0
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: education_promotion
+#: selection:education.promotion,state:0
+msgid "Completed"
+msgstr "Terminado"
+
+#. module: education_promotion
+#: model:ir.ui.view,arch_db:education_promotion.education_promotion_form
+msgid "Compute Final Result"
+msgstr "Calcular el resultado final"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_create_uid
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_create_uid
+msgid "Created by"
+msgstr "Creado por:"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_create_date
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_display_name
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: education_promotion
+#: selection:education.promotion,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: education_promotion
+#: model:ir.actions.act_window,name:education_promotion.action_education_promotion
+#: model:ir.actions.act_window,name:education_promotion.action_education_promotion_student_history
+#: model:ir.ui.view,arch_db:education_promotion.education_promotion_form
+#: model:ir.ui.view,arch_db:education_promotion.education_promotion_tree
+msgid "Education Promotion"
+msgstr "Promoción"
+
+#. module: education_promotion
+#: model:ir.model.fields,help:education_promotion.field_education_class_division_is_last_class
+msgid "Enable this option to set this class as last class"
+msgstr "Habilite esta opción para establecer esta clase como última clase"
+
+#. module: education_promotion
+#: selection:education.student,final_result:0
+#: selection:education.student.final.result,final_result:0
+msgid "Fail"
+msgstr "Fallar"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_final_result
+msgid "Final Result"
+msgstr "Resultado final"
+
+#. module: education_promotion
+#: model:ir.ui.view,arch_db:education_promotion.view_education_class_division_promotion_result_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_id
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_id
+msgid "ID"
+msgstr "ID"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_class_division_is_last_class
+msgid "Is Last Class"
+msgstr "Es la última clase"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion___last_update
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result___last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_write_uid
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización por"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_write_date
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_write_date
+msgid "Last Updated on"
+msgstr "Actualizado en"
+
+#. module: education_promotion
+#: selection:education.student,final_result:0
+#: selection:education.student.final.result,final_result:0
+msgid "Not Applicable"
+msgstr "No aplica"
+
+#. module: education_promotion
+#: selection:education.student,final_result:0
+#: selection:education.student.final.result,final_result:0
+msgid "Pass"
+msgstr "Aprobar"
+
+#. module: education_promotion
+#: model:ir.model,name:education_promotion.model_education_promotion
+#: model:ir.ui.menu,name:education_promotion.education_promotion_sub_menu
+msgid "Promotion"
+msgstr "Promoción"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_class_division_promote_class
+msgid "Promotion Class"
+msgstr "Clase promoción"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_class_division_promote_division
+msgid "Promotion Division"
+msgstr "División promoción"
+
+#. module: education_promotion
+#: model:ir.actions.act_window,name:education_promotion.action_education_class_division_promotion_result
+#: model:ir.ui.menu,name:education_promotion.menu_action_education_class_division_promotion_result
+#: model:ir.ui.view,arch_db:education_promotion.view_education_class_division_promotion_result_search
+msgid "Promotion Results"
+msgstr "Resultado de promoción"
+
+#. module: education_promotion
+#: selection:education.promotion,state:0
+msgid "Result Computed"
+msgstr "Resultado calculado"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_academic_result
+#: model:ir.ui.view,arch_db:education_promotion.education_promotion_form
+msgid "Results"
+msgstr "Resultados"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_promotion_state
+msgid "State"
+msgstr "Estado"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_student_final_result_student_id
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: education_promotion
+#: model:ir.model.fields,field_description:education_promotion.field_education_class_division_students_details
+msgid "Student Final Result"
+msgstr "Resultado final del estudiante"
+
+#. module: education_promotion
+#: model:ir.ui.view,arch_db:education_promotion.education_promotion_student_history_tree
+#: model:ir.ui.view,arch_db:education_promotion.student_history_smart_button_form
+msgid "Student History"
+msgstr "Historia del estudiante"
+
+#. module: education_promotion
+#: model:ir.model,name:education_promotion.model_education_student
+msgid "Student record"
+msgstr "Expediente de estudiante"
+
+#. module: education_promotion
+#: model:ir.ui.view,arch_db:education_promotion.education_promotion_form
+#: model:ir.ui.view,arch_db:education_promotion.view_education_class_division_promotion_result_form
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: education_promotion
+#: model:ir.ui.view,arch_db:education_promotion.view_education_class_division_promotion_result_form
+msgid "Syllabus Items"
+msgstr "Elementos del programa de estudios"
+
+#. module: education_promotion
+#: model:ir.ui.menu,name:education_promotion.education_year_ending_menu
+msgid "Year Ending"
+msgstr "Fin año académico"
+
+#. module: education_promotion
+#: model:ir.actions.act_window,help:education_promotion.action_education_promotion
+msgid "You have'nt created any promotion yet."
+msgstr "Aún no has creado ninguna promoción."
+
+#. module: education_promotion
+#: model:ir.model,name:education_promotion.model_education_student_final_result
+msgid "education.student.final.result"
+msgstr "Resultado final de estudiantes"

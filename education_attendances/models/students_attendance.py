@@ -105,10 +105,16 @@ class EducationStudentsAttendance(models.Model):
             records.state = 'done'
             if not records.present_morning and not records.present_afternoon:
                 records.full_day_absent = 1
+                records.half_day_absent = 0
+            elif records.present_morning and records.present_afternoon:
+                records.full_day_absent = 0
+                records.half_day_absent = 0
             elif not records.present_morning:
                 records.half_day_absent = 1
+                records.full_day_absent = 0
             elif not records.present_afternoon:
                 records.half_day_absent = 1
+                records.full_day_absent = 0
         self.state = 'done'
 
     @api.multi

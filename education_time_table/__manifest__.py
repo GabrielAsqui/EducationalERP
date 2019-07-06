@@ -31,13 +31,13 @@
     'website': "http://www.educationalerp.com",
     'depends': ['base', 'education_core'],
     'data': [
-
+        'security/education_security.xml',
         'security/ir.model.access.csv',
         'views/education_time_table.xml',
         'views/timetable_schedule.xml',
         'views/period_configuration_view.xml',
         'views/class_timetable_view.xml',
-
+        'reports/education_time_table_report.xml',
     ],
 
     'images': ['static/description/banner.jpg'],
