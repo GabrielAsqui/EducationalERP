@@ -193,7 +193,7 @@ class StudentApplication(models.Model):
     medium = fields.Many2one('education.medium', string="Medium", required=True,
                              help="Choose the Medium of class, like English, Hindi etc")
     sec_lang = fields.Many2one('education.subject', string="Second language",
-                               required=True, domain=[('is_language', '=', True)],
+                               domain=[('is_language', '=', True)],
                                help="Choose the Second language")
     mother_tongue = fields.Many2one('education.mother.tongue', string="Mother Tongue",
                                     required=True, help="Enter Student's Mother Tongue")
