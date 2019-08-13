@@ -2,7 +2,8 @@
 <odoo>
     <data>
         <!--main menu-->
-        <menuitem id="menu_edu_hostel_mgmnt" name="Hostel"/>
+        <menuitem id="menu_edu_hostel_mgmnt" name="Hostel"
+                  web_icon="education_hostel,static/description/icon.png"/>
         <menuitem id="child_edu_hostel_mgmnt" parent="menu_edu_hostel_mgmnt"  name="Hostel"/>
         <!--Hostel configuration menu-->
         <menuitem id="child_edu_hostel" parent="child_edu_hostel_mgmnt" name="Hostel"

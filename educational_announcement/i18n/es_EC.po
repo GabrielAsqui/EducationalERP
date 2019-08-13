@@ -1,0 +1,179 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* educational_announcement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-13 19:09+0000\n"
+"PO-Revision-Date: 2019-08-13 14:21-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_EC\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: educational_announcement
+#: model:ir.actions.act_window,name:educational_announcement.action_announcements
+#: model:ir.ui.menu,name:educational_announcement.school_announcement
+#: model:ir.ui.menu,name:educational_announcement.school_announcement_sub_menus
+#: model:ir.ui.view,arch_db:educational_announcement.view_school_announcement_form
+msgid "Announcements"
+msgstr "Anuncios"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_attachment_id
+msgid "Attachment"
+msgstr "Adjuntar"
+
+#. module: educational_announcement
+#: model:ir.actions.act_window,help:educational_announcement.action_school_announcement
+msgid "Click to Create a new Announcement."
+msgstr "Haga clic para crear un nuevo anuncio."
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_name
+msgid "Code No:"
+msgstr "No:"
+
+#. module: educational_announcement
+#: model:ir.actions.act_window,name:educational_announcement.action_school_announcement
+msgid "Create Announcements"
+msgstr "Crear anuncios"
+
+#. module: educational_announcement
+#: model:ir.ui.menu,name:educational_announcement.school_announcement_sub_menu
+msgid "Create announcements"
+msgstr "Crear anuncios"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_create_uid
+msgid "Created by"
+msgstr "Creado por:"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_create_date
+msgid "Created on"
+msgstr "Creado"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: educational_announcement
+#: selection:school.announcement,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: educational_announcement
+#: selection:school.announcement,state:0
+msgid "Expired"
+msgstr "Expirado"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_expiry_date
+msgid "Expiry Date"
+msgstr "Fecha de expiración"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_is_announcement
+msgid "General Announcement?"
+msgstr "Anuncio general?"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_id
+msgid "ID"
+msgstr "ID"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement___last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización por"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_write_date
+msgid "Last Updated on"
+msgstr "Actualizado en"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_announcement
+#: model:ir.ui.view,arch_db:educational_announcement.view_school_announcement_form
+msgid "Letter"
+msgstr "Carta"
+
+#. module: educational_announcement
+#: model:ir.model,name:educational_announcement.model_school_announcement
+msgid "School Announcement"
+msgstr "School Announcement"
+
+#. module: educational_announcement
+#: model:ir.ui.view,arch_db:educational_announcement.view_school_announcement_form
+msgid "Send"
+msgstr "Enviar"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_requested_date
+msgid "Send Date"
+msgstr "Fecha de envío"
+
+#. module: educational_announcement
+#: model:ir.ui.view,arch_db:educational_announcement.view_school_announcement_form
+msgid "Send e-mail"
+msgstr "Enviar correo"
+
+#. module: educational_announcement
+#: selection:school.announcement,to_assign:0
+msgid "Staff"
+msgstr "Profesor"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_state
+msgid "Status"
+msgstr "Estado"
+
+#. module: educational_announcement
+#: selection:school.announcement,to_assign:0
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_announcement_reason
+msgid "Title"
+msgstr "Título"
+
+#. module: educational_announcement
+#: model:ir.model.fields,field_description:educational_announcement.field_school_announcement_to_assign
+msgid "To Email"
+msgstr "Para"
+
+#. module: educational_announcement
+#: model:ir.model.fields,help:educational_announcement.field_school_announcement_attachment_id
+msgid "You can attach the copy of your Letter"
+msgstr "Puede adjuntar la copia de su carta"
+
+#. module: educational_announcement
+#: model:ir.actions.server,name:educational_announcement.ir_cron_expire_date_ir_actions_server
+#: model:ir.cron,cron_name:educational_announcement.ir_cron_expire_date
+#: model:ir.cron,name:educational_announcement.ir_cron_expire_date
+msgid "announcement_expiry_date"
+msgstr "announcement_expiry_date"
+
+#. module: educational_announcement
+#: selection:school.announcement,state:0
+msgid "sent"
+msgstr "Enviar"
+
+#. module: educational_announcement
+#: model:ir.ui.view,arch_db:educational_announcement.view_school_announcement_form
+msgid "undo"
+msgstr "Deshacer"

@@ -79,7 +79,8 @@
                 </p>
             </field>
         </record>
-        <menuitem id="school_announcement" name="Announcements"  sequence="15"/>
+        <menuitem id="school_announcement" name="Announcements"  sequence="15"
+                  web_icon="educational_announcement,static/description/icon.png"/>
         <menuitem id="school_announcement_sub_menu" name="Create announcements" groups="education_core.group_education_principal"
                   action="action_school_announcement" parent="school_announcement"  sequence="1"/>
 

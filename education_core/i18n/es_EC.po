@@ -4,17 +4,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-01 00:13+0000\n"
-"PO-Revision-Date: 2019-05-31 19:14-0500\n"
+"POT-Creation-Date: 2019-08-13 18:14+0000\n"
+"PO-Revision-Date: 2019-08-13 13:15-0500\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
+"Language: es_EC\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
 #. module: education_core
@@ -31,48 +31,48 @@ msgid ""
 "                            </p>"
 msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"                               Click to Create for New Documents\n"
+"                               Haga clic para crear nuevos documentos\n"
 "                            </p>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "<span>Student Application Form/Online</span>"
-msgstr "<span>Student Application Form/Online</span>"
+msgstr "<span>Formulario de Solicitud del Estudiante</span>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "<strong><span>Communication Address:</span></strong>"
-msgstr "<strong><span>Communication Address:</span></strong>"
+msgstr "<strong><span>Dirección de comunicación:</span></strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "<strong><span>Date of Birth:</span></strong>"
-msgstr "<strong><span>Date of Birth:</span></strong>"
+msgstr "<strong><span>Fecha de nacimiento:</span></strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "<strong><span>Father's Name:</span></strong>"
-msgstr "<strong><span>Father's Name:</span></strong>"
+msgstr "<strong><span>Nombre del Padre:</span></strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "<strong><span>Guardian's Name:</span></strong>"
-msgstr "<strong><span>Guardian's Name:</span></strong>"
+msgstr "<strong><span>Nombre del Tutor:</span></strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "<strong><span>Mother's Name:</span></strong>"
-msgstr "<strong><span>Mother's Name:</span></strong>"
+msgstr "<strong><span>Nombre de la Madre:</span></strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "<strong><span>Permanent Address:</span></strong>"
-msgstr "<strong><span>Permanent Address:</span></strong>"
+msgstr "<strong><span>Dirección permanente:</span></strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "<strong><span>Student's Name:</span></strong>"
-msgstr "<strong><span>Student's Name:</span></strong>"
+msgstr "<strong><span>Nombre del estudiante:</span></strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_id_card
@@ -82,22 +82,22 @@ msgstr "<strong>Ad No : </strong>"
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_faculty_id_card
 msgid "<strong>Blood Group : </strong>"
-msgstr "<strong>Blood Group : </strong>"
+msgstr "<strong>Grupo sanguíneo: </strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_id_card
 msgid "<strong>Class : </strong>"
-msgstr "<strong>Class : </strong>"
+msgstr "<strong>Clase : </strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_id_card
 msgid "<strong>Contact : </strong>"
-msgstr "<strong>Contact : </strong>"
+msgstr "<strong>Teléfono : </strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_faculty_id_card
 msgid "<strong>Gender : </strong>"
-msgstr "<strong>Gender : </strong>"
+msgstr "<strong>Género : </strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_faculty_id_card
@@ -107,12 +107,12 @@ msgstr "<strong>ID : </strong>"
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_id_card
 msgid "<strong>Sex : </strong>"
-msgstr "<strong>Sex : </strong>"
+msgstr "<strong>Género : </strong>"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.application_student_class
 msgid ">Class Details"
-msgstr ">Class Details"
+msgstr ">Detalles de clase"
 
 #. module: education_core
 #: selection:education.application,blood_group:0
@@ -165,6 +165,11 @@ msgid "Active"
 msgstr "Activo"
 
 #. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_student_activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: education_core
 #: model:ir.ui.view,arch_db:education_core.view_education_student_form
 msgid "Address"
 msgstr "Dirección"
@@ -193,7 +198,7 @@ msgstr "Clase de admisión:"
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_application_admission_date
 msgid "Admission Date"
-msgstr "Fecha de admisión"
+msgstr "Fecha de solicitud"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.view_education_application_form
@@ -286,7 +291,7 @@ msgstr "Candidato"
 #: model:ir.ui.view,arch_db:education_core.view_education_application_graph
 #: model:ir.ui.view,arch_db:education_core.view_education_application_pivot
 msgid "Application"
-msgstr "Aplicación"
+msgstr "Solicitud"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_application_application_no
@@ -297,7 +302,7 @@ msgstr "Solicitud No"
 #: model:ir.actions.act_window,name:education_core.action_application_report
 #: model:ir.ui.menu,name:education_core.menu_application_report_analysis
 msgid "Application Analysis"
-msgstr "Análisis de Aplicación"
+msgstr "Análisis de Solicitud"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_application_id
@@ -307,20 +312,20 @@ msgid "Application No"
 msgstr "Solicitud No"
 
 #. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_documents_application_ref
+msgid "Application Ref"
+msgstr "Solicitud de referencia"
+
+#. module: education_core
 #: code:addons/education_core/models/education_application.py:48
 #, python-format
 msgid "Application can only be deleted after rejecting it"
-msgstr "La aplicación solo puede ser eliminada después de rechazarla"
+msgstr "La solicitud solo puede ser eliminada después de rechazarla"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_reject_reason
 msgid "Application is rejected because"
 msgstr "La solicitud es rechazada porque"
-
-#. module: education_core
-#: model:ir.model.fields,field_description:education_core.field_education_documents_application_ref
-msgid "Application ref"
-msgstr "Solicitud ref"
 
 #. module: education_core
 #: model:ir.model,name:education_core.model_education_application
@@ -464,12 +469,12 @@ msgstr "Marque si el contacto es un empleado"
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_academic_year_id
 msgid "Choose Academic year for which the admission is choosing"
-msgstr "Elegir el año académico para el que se elige la admisión."
+msgstr "Elegir el año académico para el que se elige la solicitud."
 
 #. module: education_core
 #: model:ir.model,name:education_core.model_application_reject
 msgid "Choose Reject Reason"
-msgstr "Elegir Rechazar Razón"
+msgstr "Elegir motivo de Rechazo"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_medium
@@ -552,7 +557,7 @@ msgstr "Historial de clase"
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_class_amenities_class_id
 msgid "Class Room"
-msgstr "Salón de clases"
+msgstr "Salón de clase"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_class_division_actual_strength
@@ -568,7 +573,7 @@ msgstr "Detalles de la clase"
 #. module: education_core
 #: model:ir.model,name:education_core.model_education_class_division
 msgid "Class room"
-msgstr "Salón de clases"
+msgstr "Salón de clase"
 
 #. module: education_core
 #: model:ir.model,name:education_core.model_education_class_history
@@ -643,7 +648,7 @@ msgstr "Código de servicio"
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_color
 msgid "Color Index"
-msgstr "Índice de colores"
+msgstr "Índice de color"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_comment
@@ -653,7 +658,12 @@ msgstr "Comentario"
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_commercial_partner_id
 msgid "Commercial Entity"
-msgstr "Entidad comercial"
+msgstr "Entidad Comercial"
+
+#. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_student_commercial_partner_country_id
+msgid "Commercial Entity's Country"
+msgstr "País de la entidad comercial"
 
 #. module: education_core
 #: model:ir.model,name:education_core.model_res_company
@@ -695,6 +705,11 @@ msgstr "Obligatorio"
 #: model:ir.ui.menu,name:education_core.menu_education_main_menu
 msgid "Configuration"
 msgstr "Configuración"
+
+#. module: education_core
+#: model:ir.model,name:education_core.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.view_education_application_form
@@ -872,7 +887,7 @@ msgstr "Ubicación del cliente"
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "DATE :"
-msgstr "DATE :"
+msgstr "FECHA :"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_date
@@ -950,18 +965,14 @@ msgstr "Nombre a Mostrar"
 #. module: education_core
 #: model:ir.actions.act_window,name:education_core.action_education_division_tree
 #: model:ir.model.fields,field_description:education_core.field_education_class_division_division_id
+#: model:ir.model.fields,field_description:education_core.field_education_class_division_ids
 msgid "Division"
 msgstr "División"
 
 #. module: education_core
-#: model:ir.model.fields,field_description:education_core.field_education_class_division_ids
-msgid "Division ids"
-msgstr "Division ids"
-
-#. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_documents_reference
 msgid "Document Number"
-msgstr "Número del Documento"
+msgstr "No. de Documento"
 
 #. module: education_core
 #: model:ir.actions.act_window,name:education_core.action_document
@@ -1043,12 +1054,7 @@ msgstr "Optativo"
 #: model:ir.model.fields,field_description:education_core.field_education_faculty_email
 #: model:ir.model.fields,field_description:education_core.field_education_student_email
 msgid "Email"
-msgstr "Email"
-
-#. module: education_core
-#: model:ir.model.fields,field_description:education_core.field_education_student_notify_email
-msgid "Email Messages and Notifications"
-msgstr "Enviar mensajes y notificaciones"
+msgstr "Correo electrónico"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
@@ -1073,7 +1079,7 @@ msgstr "Final del año académico"
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_admission_class
 msgid "Enter Class to which the admission is seeking"
-msgstr "Ingrese la clase a la que busca la admisión"
+msgstr "Ingrese la clase a la que busca la solicitud"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_email
@@ -1088,17 +1094,17 @@ msgstr "Ingrese el primer nombre del estudiante"
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_last_name
 msgid "Enter Last name of Student"
-msgstr "Ingrese el apellido del estudiante"
+msgstr "Ingrese los apellidos del estudiante"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_middle_name
 msgid "Enter Middle name of Student"
-msgstr "Introduzca el segundo nombre del estudiante"
+msgstr "Ingrese el segundo nombre del estudiante"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_mobile
 msgid "Enter Mobile num for contact purpose"
-msgstr "Introduzca el número de móvil para fines de contacto"
+msgstr "Ingrese el número de móvil para fines de contacto"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_phone
@@ -1113,18 +1119,18 @@ msgstr "Ingrese la lengua materna del estudiante"
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_documents_description
 msgid "Enter a description about the document"
-msgstr "Introduzca una descripción sobre el documento"
+msgstr "Ingrese una descripción sobre el documento"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.education_view_other_company_form
 #: model:ir.ui.view,arch_db:education_core.view_education_subject_form
 msgid "Enter description here"
-msgstr "Introduce la descripción aquí"
+msgstr "Ingrese la descripción aquí"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_documents_location_note
 msgid "Enter some notes about the location"
-msgstr "Introduce algunas notas sobre la ubicación"
+msgstr "Ingrese algunas notas sobre la ubicación"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_city
@@ -1165,12 +1171,12 @@ msgstr "Ingrese el Nombre de la División"
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_medium_name
 msgid "Enter the Name of the Medium"
-msgstr "Ingrese el nombre de la jornada"
+msgstr "Ingrese el nombre de la Jornada"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_faculty_phone
 msgid "Enter the Phone for contact purpose"
-msgstr "Introduzca el teléfono para fines de contacto"
+msgstr "Ingrese el teléfono para fines de contacto"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_subject_code
@@ -1186,12 +1192,12 @@ msgstr "Ingrese el código postal"
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.view_education_academic_year_form
 msgid "Enter the description"
-msgstr "Introduzca la descripción"
+msgstr "Ingrese la descripción"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_faculty_last_name
 msgid "Enter the last name"
-msgstr "Ingrese el apellido"
+msgstr "Ingrese los apellidos"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_prev_school
@@ -1213,7 +1219,7 @@ msgstr "Ingresar la calle2"
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_subject_weightage
 msgid "Enter the weightage for this subject"
-msgstr "Introduzca la ponderación para esta asignatura"
+msgstr "Ingrese la ponderación para esta asignatura"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_date_of_birth
@@ -1245,14 +1251,14 @@ msgid "Faculty Details"
 msgstr "Detalles del profesor"
 
 #. module: education_core
-#: model:ir.actions.report.xml,name:education_core.action_faculty_id_card
+#: model:ir.actions.report,name:education_core.action_faculty_id_card
 msgid "Faculty ID Card"
-msgstr "Faculty ID Card"
+msgstr "Tarjeta de Profesor"
 
 #. module: education_core
 #: model:ir.model,name:education_core.model_education_faculty
 msgid "Faculty Record"
-msgstr "Faculty Record"
+msgstr "Registro del profesor"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_application_father_name
@@ -1260,11 +1266,6 @@ msgstr "Faculty Record"
 #: model:ir.model.fields,field_description:education_core.field_education_student_father_name
 msgid "Father"
 msgstr "Padre"
-
-#. module: education_core
-#: model:ir.model.fields,field_description:education_core.field_education_student_fax
-msgid "Fax"
-msgstr "Fax"
 
 #. module: education_core
 #: selection:education.application,gender:0
@@ -1348,7 +1349,7 @@ msgstr "Asistente administrativo"
 #. module: education_core
 #: model:ir.module.category,description:education_core.module_category_education_others
 msgid "Helps you manage your institutes different users."
-msgstr "Helps you manage your institutes different users."
+msgstr "Le ayuda a administrar sus institutos con diferentes usuarios."
 
 #. module: education_core
 #: model:ir.module.category,description:education_core.module_category_education
@@ -1386,7 +1387,7 @@ msgstr "Las horas deben ser mayores que cero"
 #: model:ir.model.fields,field_description:education_core.field_education_institute_id
 #: model:ir.model.fields,field_description:education_core.field_education_medium_id
 #: model:ir.model.fields,field_description:education_core.field_education_mother_tongue_id
-#: model:ir.model.fields,field_description:education_core.field_education_student_class_id_3961
+#: model:ir.model.fields,field_description:education_core.field_education_student_class_id_3904
 #: model:ir.model.fields,field_description:education_core.field_education_student_id
 #: model:ir.model.fields,field_description:education_core.field_education_student_list_id
 #: model:ir.model.fields,field_description:education_core.field_education_subject_id
@@ -1414,14 +1415,19 @@ msgstr "Si el idioma seleccionado está cargado en el sistema, todos los documen
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_academic_year_active
 msgid "If unchecked, it will allow you to hide the Academic Year without removing it."
-msgstr "If unchecked, it will allow you to hide the Academic Year without removing it."
+msgstr "Si no está marcada, le permitirá ocultar el año académico sin eliminarlo."
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_application_image
 #: model:ir.model.fields,field_description:education_core.field_education_faculty_image
 #: model:ir.model.fields,field_description:education_core.field_education_student_image
 msgid "Image"
-msgstr "imagen"
+msgstr "Imagen"
+
+#. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_student_industry_id
+msgid "Industry"
+msgstr "Sector"
 
 #. module: education_core
 #: model:ir.actions.act_window,name:education_core.action_education_
@@ -1696,7 +1702,7 @@ msgstr "Mi raza es"
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_religion_id
 msgid "My Religion is "
-msgstr "Mi religion es"
+msgstr "Mi religión es"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_application_mother_name
@@ -1771,13 +1777,28 @@ msgstr "New"
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.application_search
 msgid "New Application"
-msgstr "Nueva aplicación"
+msgstr "Nueva solicitud"
 
 #. module: education_core
 #: code:addons/education_core/models/education_faculty_recruitment.py:81
 #, python-format
 msgid "New Employee %s Hired"
 msgstr "Nuevo empleado %s contratado"
+
+#. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_student_activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Siguiente plazo de actividad"
+
+#. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_student_activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_student_activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
 
 #. module: education_core
 #: code:addons/education_core/models/education_application.py:56
@@ -1817,7 +1838,7 @@ msgstr "Otros"
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.education_view_partner_form
 msgid "Parent"
-msgstr "Tutor"
+msgstr "Padre"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.view_education_student_kanban
@@ -1830,29 +1851,28 @@ msgid "Parent name"
 msgstr "Nombre Padre"
 
 #. module: education_core
-#: model:ir.model,name:education_core.model_res_partner
 #: model:ir.model.fields,field_description:education_core.field_education_student_partner_id
 msgid "Partner"
 msgstr "Empresa"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_per_city
-msgid "Per city"
+msgid "Per City"
 msgstr "Ciudad"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_per_street
-msgid "Per street"
+msgid "Per Street"
 msgstr "Calle"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_per_street2
-msgid "Per street2"
+msgid "Per Street2"
 msgstr "Calle2"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_per_zip
-msgid "Per zip"
+msgid "Per Zip"
 msgstr "Zip"
 
 #. module: education_core
@@ -1882,17 +1902,6 @@ msgstr "Teléfono"
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "Phone:"
 msgstr "Teléfono:"
-
-#. module: education_core
-#: model:ir.model.fields,help:education_core.field_education_student_notify_email
-msgid ""
-"Policy to receive emails for new messages pushed to your personal Inbox:\n"
-"- Never: no emails are sent\n"
-"- All Messages: for every notification you receive in your Inbox"
-msgstr ""
-"Política para recibir correos electrónicos para los nuevos mensajes insertados en su bandeja de entrada personal\n"
-"- Nunca: No se enviará ningún correo\n"
-"- Todos los mensajes: Se enviará un correo para cada notificación que reciba en su bandeja de entrada"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_application_reject_reason_name
@@ -2014,11 +2023,12 @@ msgstr "Religión:"
 #. module: education_core
 #: model:ir.ui.menu,name:education_core.menu_application_report
 msgid "Reports"
-msgstr "Informes"
+msgstr "Reportes"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_documents_responsible_returned
 #: model:ir.model.fields,field_description:education_core.field_education_documents_responsible_verified
+#: model:ir.model.fields,field_description:education_core.field_education_student_activity_user_id
 msgid "Responsible"
 msgstr "Responsable"
 
@@ -2086,7 +2096,7 @@ msgstr "Segundo idioma"
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_application_reject_reject_reason_id
 msgid "Select Reason for rejecting the Applications"
-msgstr "Seleccione la razón para rechazar las aplicaciones"
+msgstr "Seleccione la razón para rechazar las solicitudes"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_class_division_academic_year_id
@@ -2124,7 +2134,7 @@ msgstr "Seleccione la nacionalidad"
 #: model:ir.model.fields,help:education_core.field_education_application_per_state_id
 #: model:ir.model.fields,help:education_core.field_education_application_state_id
 msgid "Select the State where you are from"
-msgstr "Selecciona el estado de donde eres"
+msgstr "Seleccione el estado de donde es"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_education_class_amenities_name
@@ -2164,12 +2174,22 @@ msgstr "Número de serie"
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.report_student_application
 msgid "Sex:"
-msgstr "Sex:"
+msgstr "Género:"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_partner_share
 msgid "Share Partner"
 msgstr "Compartir empresa"
+
+#. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_student_signup_expiration
+msgid "Signup Expiration"
+msgstr "Expiración del ingreso"
+
+#. module: education_core
+#: model:ir.model.fields,field_description:education_core.field_education_student_signup_token
+msgid "Signup Token"
+msgstr "Palabra de ingreso"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_signup_type
@@ -2185,16 +2205,6 @@ msgstr "La palabra de ingreso es válida"
 #: model:ir.model.fields,field_description:education_core.field_education_student_signup_url
 msgid "Signup URL"
 msgstr "URL de ingreso"
-
-#. module: education_core
-#: model:ir.model.fields,field_description:education_core.field_education_student_signup_expiration
-msgid "Signup expiration"
-msgstr "Vencimiento de registro"
-
-#. module: education_core
-#: model:ir.model.fields,field_description:education_core.field_education_student_signup_token
-msgid "Signup token"
-msgstr "Token de Registro"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_image_small
@@ -2246,6 +2256,7 @@ msgstr "Fecha de inicio del año académico."
 #: model:ir.model.fields,field_description:education_core.field_education_application_state
 #: model:ir.model.fields,field_description:education_core.field_education_application_state_id
 #: model:ir.model.fields,field_description:education_core.field_education_documents_state
+#: model:ir.model.fields,field_description:education_core.field_education_student_activity_state
 #: model:ir.model.fields,field_description:education_core.field_education_student_class_state
 #: model:ir.model.fields,field_description:education_core.field_education_student_per_state_id
 #: model:ir.model.fields,field_description:education_core.field_education_student_state_id
@@ -2253,6 +2264,19 @@ msgstr "Fecha de inicio del año académico."
 #: model:ir.ui.view,arch_db:education_core.view_education_student_form
 msgid "State"
 msgstr "Estado"
+
+#. module: education_core
+#: model:ir.model.fields,help:education_core.field_education_student_activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades\n"
+"Vencida: la fecha tope ya ha pasado\n"
+"Hoy: La fecha tope es hoy\n"
+"Planificada: futuras actividades."
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_picking_warn
@@ -2270,7 +2294,7 @@ msgstr "Calle"
 #: model:ir.ui.view,arch_db:education_core.view_education_application_form
 #: model:ir.ui.view,arch_db:education_core.view_education_student_form
 msgid "Street 2..."
-msgstr "Calle..."
+msgstr "Calle 2..."
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.view_education_application_form
@@ -2316,11 +2340,11 @@ msgstr "Asignación de estudiantes"
 
 #. module: education_core
 #: model:ir.actions.act_window,name:education_core.action_student_application
-#: model:ir.actions.report.xml,name:education_core.action_student_application_report
+#: model:ir.actions.report,name:education_core.action_student_application_report
 #: model:ir.ui.view,arch_db:education_core.view_education_application_form
 #: model:ir.ui.view,arch_db:education_core.view_education_application_tree
 msgid "Student Application"
-msgstr "Solicitud de estudiante"
+msgstr "Solicitud del Estudiante"
 
 #. module: education_core
 #: model:ir.model.fields,help:education_core.field_class_details_assigned_by
@@ -2338,9 +2362,9 @@ msgid "Student Documents"
 msgstr "Documentos del estudiante"
 
 #. module: education_core
-#: model:ir.actions.report.xml,name:education_core.action_student_id_card
+#: model:ir.actions.report,name:education_core.action_student_id_card
 msgid "Student ID Card"
-msgstr "Student ID Card"
+msgstr "Tarjeta del Estudiante"
 
 #. module: education_core
 #: model:ir.ui.view,arch_db:education_core.view_education_student_form
@@ -2407,6 +2431,7 @@ msgstr "Fecha de envío"
 
 #. module: education_core
 #: model:ir.actions.act_window,name:education_core.action_education_syllabus
+#: model:ir.model.fields,field_description:education_core.field_education_class_syllabus_ids
 #: model:ir.ui.menu,name:education_core.menu_action_education_syllabus
 #: model:ir.ui.view,arch_db:education_core.view_education_class_form
 #: model:ir.ui.view,arch_db:education_core.view_education_syllabus_form
@@ -2429,11 +2454,6 @@ msgstr "Módulos del programa de estudios"
 #: model:ir.ui.view,arch_db:education_core.view_education_subject_tree
 msgid "Syllabus Subject"
 msgstr "Asignaturas del programa de estudios"
-
-#. module: education_core
-#: model:ir.model.fields,field_description:education_core.field_education_class_syllabus_ids
-msgid "Syllabus ids"
-msgstr "Programa de estudios ids"
 
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_vat
@@ -2486,6 +2506,7 @@ msgid "The quantity of the amenities"
 msgstr "La cantidad de los servicios"
 
 #. module: education_core
+#: model:ir.model.fields,help:education_core.field_education_faculty_image
 #: model:ir.model.fields,help:education_core.field_education_student_image
 msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
 msgstr "Este campo contiene la imagen utilizada como avatar para este contacto, limitada a 1024x1024 px"
@@ -2677,7 +2698,7 @@ msgstr "Código ZIP"
 #. module: education_core
 #: model:ir.model.fields,field_description:education_core.field_education_student_zip
 msgid "Zip"
-msgstr "C.P."
+msgstr "Zip"
 
 #. module: education_core
 #: model:ir.model,name:education_core.model_education_student_list

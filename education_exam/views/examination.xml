@@ -117,7 +117,8 @@
         </record>
 
         <menuitem id="examination_root_menu" name="Exam" sequence="11" 
-            groups="education_core.group_education_hod,education_core.group_education_faculty"/>
+                  web_icon="education_exam,static/description/icon.png"
+                  groups="education_core.group_education_hod,education_core.group_education_faculty"/>
 
         <menuitem id="examination_main_menu" parent="education_exam.examination_root_menu" name="Exam" sequence="3"/>
 

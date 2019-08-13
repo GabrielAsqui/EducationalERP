@@ -210,6 +210,7 @@
         </record>
 
         <menuitem id="student_attendance_root_menu" name="Attendance"
+                  web_icon="education_attendances,static/description/icon.png"
                   sequence="12" groups="education_core.group_education_hod"/>
 
         <menuitem id="student_attendance_main_menu" parent="education_attendances.student_attendance_root_menu" name="Attendance"
