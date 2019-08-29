@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-13 14:42+0000\n"
-"PO-Revision-Date: 2019-08-13 09:45-0500\n"
+"POT-Creation-Date: 2019-08-29 19:42+0000\n"
+"PO-Revision-Date: 2019-08-29 16:30-0500\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "Año lectivo:"
 #. module: education_time_table
 #: model:ir.model.fields,help:education_time_table.field_education_timetable_schedule_faculty_id
 msgid "Choose the faculty."
-msgstr "Elija un profesor"
+msgstr "Elija un docente"
 
 #. module: education_time_table
 #: model:ir.model.fields,field_description:education_time_table.field_education_timetable_class_division
@@ -47,7 +47,7 @@ msgstr "Clase"
 #. module: education_time_table
 #: model:ir.ui.view,arch_db:education_time_table.education_time_table_schedule_search
 msgid "Class Division"
-msgstr "División"
+msgstr "División de clase"
 
 #. module: education_time_table
 #: model:ir.model.fields,field_description:education_time_table.field_education_timetable_company_id
@@ -92,13 +92,13 @@ msgstr "División"
 #: model:ir.ui.view,arch_db:education_time_table.education_time_table_form
 #: model:ir.ui.view,arch_db:education_time_table.education_time_table_tree
 msgid "Education Timetable"
-msgstr "Horario"
+msgstr "Horarios"
 
 #. module: education_time_table
 #: model:ir.model.fields,field_description:education_time_table.field_education_timetable_schedule_faculty_id
 #: model:ir.ui.view,arch_db:education_time_table.education_time_table_schedule_search
 msgid "Faculty"
-msgstr "Profesor"
+msgstr "Docente"
 
 #. module: education_time_table
 #: selection:education.timetable.schedule,week_day:0
@@ -197,13 +197,13 @@ msgstr "Período"
 #: model:ir.ui.view,arch_db:education_time_table.education_time_table_schedule_form
 #: model:ir.ui.view,arch_db:education_time_table.education_timetable_period_form
 msgid "Period Time"
-msgstr "Periodo de tiempo"
+msgstr "Período de tiempo"
 
 #. module: education_time_table
 #: model:ir.actions.act_window,name:education_time_table.action_education_timetable_period
 #: model:ir.ui.menu,name:education_time_table.education_timetable_period_sub_menu
 msgid "Periods"
-msgstr "Periodos"
+msgstr "Períodos"
 
 #. module: education_time_table
 #: selection:education.timetable.schedule,week_day:0
@@ -252,7 +252,7 @@ msgstr "Hasta"
 #. module: education_time_table
 #: model:ir.actions.report,name:education_time_table.report_time_table
 msgid "Time Table"
-msgstr "Horario"
+msgstr "Horarios"
 
 #. module: education_time_table
 #: model:ir.model,name:education_time_table.model_education_timetable
@@ -263,7 +263,7 @@ msgstr "Horario"
 #: model:ir.ui.view,arch_db:education_time_table.class_smart_button_time_table_form
 #: model:ir.ui.view,arch_db:education_time_table.faculty_smart_button_time_table_form
 msgid "Timetable"
-msgstr "Horario"
+msgstr "Horarios"
 
 #. module: education_time_table
 #: model:ir.model.fields,field_description:education_time_table.field_education_timetable_timetable_fri

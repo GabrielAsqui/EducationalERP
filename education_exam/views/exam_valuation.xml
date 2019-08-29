@@ -35,7 +35,7 @@
                                        attrs="{'readonly': ['|', ('mark_sheet_created', '=', True), ('state', '!=', 'draft')]}"/>
                                 <field name="subject_id" widget="selection"
                                        attrs="{'readonly': ['|', ('mark_sheet_created', '=', True), ('state', '!=', 'draft')]}"/>
-                                <field name="teachers_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                                <field name="faculty_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
                                 <field name="date" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
                             </group>
                             <group>
@@ -92,7 +92,7 @@
                     <field name="subject_id"/>
                     <field name="class_id"/>
                     <field name="division_id"/>
-                    <field name="teachers_id"/>
+                    <field name="faculty_id"/>
                     <field name="state"/>
                     <field name="academic_year" invisible="1"/>
                 </tree>

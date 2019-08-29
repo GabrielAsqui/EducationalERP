@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-12 00:17+0000\n"
-"PO-Revision-Date: 2019-08-11 19:23-0500\n"
+"POT-Creation-Date: 2019-08-29 21:42+0000\n"
+"PO-Revision-Date: 2019-08-29 18:45-0500\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -524,7 +524,7 @@ msgstr "Pagos"
 #: model:ir.ui.view,arch_db:education_fee.fee_category_form
 #: model:ir.ui.view,arch_db:education_fee.fee_category_tree
 msgid "Fee Category"
-msgstr "Categoria de Pago"
+msgstr "Categoría de pago"
 
 #. module: education_fee
 #: model:ir.actions.act_window,name:education_fee.open_fee_journal_dashboard_kanban
@@ -985,7 +985,7 @@ msgstr "Abierto"
 #. module: education_fee
 #: model:ir.ui.view,arch_db:education_fee.receipt_form
 msgid "Other Info"
-msgstr "Otra informacion"
+msgstr "Otra información"
 
 #. module: education_fee
 #: model:ir.model.fields,field_description:education_fee.field_education_fee_type_outgoing_qty
@@ -1656,7 +1656,7 @@ msgstr "Tiene"
 #. module: education_fee
 #: model:ir.model,name:education_fee.model_education_fee_category
 msgid "education.fee.category"
-msgstr "Categoria de pago"
+msgstr "Categoría de pago"
 
 #. module: education_fee
 #: model:ir.model,name:education_fee.model_education_fee_structure
@@ -1666,7 +1666,7 @@ msgstr "Estructura de pago"
 #. module: education_fee
 #: model:ir.model,name:education_fee.model_education_fee_structure_lines
 msgid "education.fee.structure.lines"
-msgstr "Lineas de Estructura de pago"
+msgstr "Lineas de estructura de pago"
 
 #. module: education_fee
 #: model:ir.model,name:education_fee.model_education_fee_type
@@ -1686,4 +1686,4 @@ msgstr "pagos pendientes"
 #. module: education_fee
 #: model:ir.model,name:education_fee.model_payed_lines
 msgid "payed.lines"
-msgstr "payed.lines"
+msgstr "Lineas de pago"

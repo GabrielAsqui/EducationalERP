@@ -1,0 +1,990 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* education_hostel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-29 21:46+0000\n"
+"PO-Revision-Date: 2019-08-29 18:42-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_EC\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: education_hostel
+#: selection:education.host_std,blood_group:0
+msgid "AB+"
+msgstr "AB+"
+
+#. module: education_hostel
+#: selection:education.host_std,blood_group:0
+msgid "AB-"
+msgstr "AB-"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Address"
+msgstr "Dirección"
+
+#. module: education_hostel
+#: model:ir.ui.menu,name:education_hostel.child_edu_admision
+msgid "Admission"
+msgstr "Admisión"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_member_std_name
+msgid "Admission No"
+msgstr "Admisión No"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Allocate"
+msgstr "Asignar"
+
+#. module: education_hostel
+#: selection:education.host_std,state:0
+msgid "Allocated"
+msgstr "Asignado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_allocated_date
+msgid "Allocated Date"
+msgstr "Fecha asignada"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_allocated_number
+msgid "Allocated Students"
+msgstr "Estudiantes asignados"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+#: model:ir.ui.view,arch_db:education_hostel.view_education_student_form2
+msgid "Allocation Details"
+msgstr "Detalles de asignación"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_allocation_detail
+msgid "Allocation_details"
+msgstr "Detalles de asignación"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Allotment Details"
+msgstr "Detalles de adjudicación"
+
+#. module: education_hostel
+#: model:ir.ui.menu,name:education_hostel.child_edu_room_amenity
+msgid "Amenities"
+msgstr "Servicios"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_edu_amenity
+#: model:ir.model,name:education_hostel.model_room_amenity
+#: model:ir.model.fields,field_description:education_hostel.field_edu_amenity_name
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_amenity
+msgid "Amenity"
+msgstr "Servicio"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_amenity_rel
+msgid "Amenity Rel"
+msgstr "Amenity Rel"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_education_application
+msgid "Applications for the admission"
+msgstr "Solicitudes de admisión."
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.edu_leave_form
+msgid "Approve"
+msgstr "Aprobar"
+
+#. module: education_hostel
+#: selection:education.hostel_leave,state:0
+msgid "Approved"
+msgstr "Aprobado"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+msgid "Basic Info"
+msgstr "Información básica"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_blood_group
+msgid "Blood Group"
+msgstr "Grupo sanguíneo"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_break_fast
+msgid "Break Fast"
+msgstr "Desayuno"
+
+#. module: education_hostel
+#: selection:education.hostel_leave,state:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_hostel_capacity
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_room_capacity
+msgid "Capacity"
+msgstr "Capacidad"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_city
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_city
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "City"
+msgstr "Ciudad"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,help:education_hostel.action_edu_hostel_member
+msgid "Click to create a new Admission."
+msgstr "Haga clic para crear una nueva admisión."
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_hostel_code
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_mess_code
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+msgid "Code"
+msgstr "Código"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_color
+msgid "Color Index"
+msgstr "Índice de color"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_company_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_company_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_company_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_company_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_company_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: education_hostel
+#: model:ir.ui.menu,name:education_hostel.child_edu_conf
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.edu_leave_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_country_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_country_id
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Country"
+msgstr "País"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,help:education_hostel.action_edu_floor
+msgid "Create Floors."
+msgstr "Crear pisos."
+
+#. module: education_hostel
+#: model:ir.actions.act_window,help:education_hostel.action_edu_food_item
+msgid "Create Food Item."
+msgstr "Crear artículo de comida."
+
+#. module: education_hostel
+#: model:ir.actions.act_window,help:education_hostel.action_edu_hostel
+msgid "Create Hostel."
+msgstr "Crear Hotel."
+
+#. module: education_hostel
+#: model:ir.actions.act_window,help:education_hostel.action_edu_leave
+msgid "Create Leave Request."
+msgstr "Crear solicitud de licencia."
+
+#. module: education_hostel
+#: model:ir.actions.act_window,help:education_hostel.action_edu_mess
+msgid "Create Mess."
+msgstr "Crear comida"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,help:education_hostel.action_edu_room
+msgid "Create Room."
+msgstr "Crear habitación."
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_edu_amenity_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_food_item_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_create_uid
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_create_uid
+msgid "Created by"
+msgstr "Creado por:"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_edu_amenity_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_food_item_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_create_date
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_create_date
+msgid "Created on"
+msgstr "Creado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_leave_from
+msgid "Date From"
+msgstr "Fecha de"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_date_of_birth
+msgid "Date Of birth"
+msgstr "Fecha de nacimiento"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_leave_to
+msgid "Date To"
+msgstr "Hasta"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_kanaban
+msgid "Delete"
+msgstr "Suprimir"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_edu_amenity_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_food_item_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_display_name
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: education_hostel
+#: selection:education.host_std,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_kanaban
+msgid "Edit"
+msgstr "Editar"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_email
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_email
+msgid "Email"
+msgstr "Email"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel_member.py:98
+#, python-format
+msgid "Enter the Allocated Date"
+msgstr "Ingrese la fecha asignada"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel.py:71
+#, python-format
+msgid "Enter the Mobile Number"
+msgstr "Ingrese el número de móvil"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel.py:69
+#, python-format
+msgid "Enter the Phone Number"
+msgstr "Ingrese el número de teléfono"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel.py:67
+#, python-format
+msgid "Enter the Total Floors"
+msgstr "Ingrese los pisos totales"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel_member.py:107
+#, python-format
+msgid "Enter the Vacated Date"
+msgstr "Ingrese la fecha de salida"
+
+#. module: education_hostel
+#: selection:education.host_std,member_type:0
+msgid "Faculty"
+msgstr "Docente"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_father_name
+msgid "Father"
+msgstr "Padre"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_student_hostel_fee
+msgid "Fee"
+msgstr "Pagos"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+msgid "Fee Structure"
+msgstr "Estructura de pago"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,name:education_hostel.action_edu_floor
+#: model:ir.model,name:education_hostel.model_education_floor
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_floor_no
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_floor
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_floor
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_floor
+#: model:ir.ui.menu,name:education_hostel.child_edu_floor
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_floor_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_floor_tree
+msgid "Floor"
+msgstr "Piso"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel_floor.py:30
+#, python-format
+msgid "Floor Count is High"
+msgstr "El conteo de pisos es alto"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_food_item
+msgid "Food"
+msgstr "Comida"
+
+#. module: education_hostel
+#: model:ir.ui.menu,name:education_hostel.child_edu_mess2
+msgid "Food Item"
+msgstr "Alimento"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,name:education_hostel.action_edu_food_item
+#: model:ir.ui.view,arch_db:education_hostel.view_food_item_tree
+msgid "Food Items"
+msgstr "Alimentos"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_food_menu
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_mess_form
+msgid "Food Menu"
+msgstr "Menú"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_mess_food
+msgid "Food Order"
+msgstr "Orden de comida"
+
+#. module: education_hostel
+#: selection:mess.food,week_list:0
+msgid "Friday"
+msgstr "Viernes"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel_leave.py:69
+#, python-format
+msgid "From date must be anterior to To date"
+msgstr "Fecha de debe ser anterior a Fecha hasta"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_gender
+msgid "Gender"
+msgstr "Género"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_guardian_name
+msgid "Guardian"
+msgstr "Tutor"
+
+#. module: education_hostel
+#: model:ir.module.category,description:education_hostel.module_hostel_management
+msgid "Helps you manage your Hostel."
+msgstr "Te ayuda a administrar tu Hotel."
+
+#. module: education_hostel
+#: model:ir.actions.act_window,name:education_hostel.action_edu_hostel
+#: model:ir.model,name:education_hostel.model_education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_hostel_room_rel
+#: model:ir.model.fields,field_description:education_hostel.field_education_student_hostel
+#: model:ir.module.category,name:education_hostel.module_hostel_management
+#: model:ir.ui.menu,name:education_hostel.child_edu_hostel
+#: model:ir.ui.menu,name:education_hostel.child_edu_hostel_mgmnt
+#: model:ir.ui.menu,name:education_hostel.menu_edu_hostel_mgmnt
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_tree
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_tree
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_mess_form
+#: model:ir.ui.view,arch_db:education_hostel.view_education_application_form2
+#: model:ir.ui.view,arch_db:education_hostel.view_education_student_form2
+msgid "Hostel"
+msgstr "Hotel"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_hostel_admission_no
+#: model:ir.model.fields,field_description:education_hostel.field_education_student_hostel_member
+msgid "Hostel Admission No"
+msgstr "No"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_kanban
+msgid "Hostel Admission No:"
+msgstr "No:"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_education_student_form2
+msgid "Hostel Details"
+msgstr "Detalles del hotel"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_education_host_std
+msgid "Hostel Member"
+msgstr "Miembro del hotel"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_kanban
+msgid "Hostel:"
+msgstr "Hotel:"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_edu_amenity_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_id
+#: model:ir.model.fields,field_description:education_hostel.field_food_item_id
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_id
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_id
+msgid "ID"
+msgstr "ID"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_image
+msgid "Image"
+msgstr "Imagen"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_edu_amenity___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_education_room___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_food_item___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food___last_update
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity___last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_edu_amenity_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_food_item_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_write_uid
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización por"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_edu_amenity_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_food_item_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_write_date
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_write_date
+msgid "Last Updated on"
+msgstr "Actualizado en"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_education_hostel_leave
+#: model:ir.ui.view,arch_db:education_hostel.edu_leave_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_leave_search
+msgid "Leave Request"
+msgstr "Dejar solicitud"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,name:education_hostel.action_edu_leave
+msgid "Leave Requests"
+msgstr "Dejar solicitudes"
+
+#. module: education_hostel
+#: model:ir.ui.menu,name:education_hostel.child_edu_leaves
+#: model:ir.ui.menu,name:education_hostel.child_edu_leaves1
+msgid "Leaves"
+msgstr "Solicitudes"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_lunch
+msgid "Lunch"
+msgstr "Almuerzo"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_mess_rel
+msgid "MESS"
+msgstr "COMIDA"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,name:education_hostel.action_edu_hostel_member
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_name
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_search
+msgid "Member"
+msgstr "Miembro"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_member_type
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_search
+msgid "Member Type"
+msgstr "Tipo de miembro"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Members"
+msgstr "Miembros"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,name:education_hostel.action_edu_mess
+#: model:ir.model,name:education_hostel.model_education_mess
+#: model:ir.ui.menu,name:education_hostel.child_edu_mess
+#: model:ir.ui.menu,name:education_hostel.child_edu_mess1
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_mess3_tree
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_mess_tree
+msgid "Mess"
+msgstr "Comida"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_mess_fee
+msgid "Mess Fee"
+msgstr "Pago de comida"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_mobile
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_mobile
+msgid "Mobile"
+msgstr "Tel. Celular"
+
+#. module: education_hostel
+#: selection:mess.food,week_list:0
+msgid "Monday"
+msgstr "Lunes"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_mother_name
+msgid "Mother"
+msgstr "Madre"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_member_fac_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_hostel_name
+#: model:ir.model.fields,field_description:education_hostel.field_education_mess_mess_name
+#: model:ir.model.fields,field_description:education_hostel.field_food_item_name
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_search
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_leave_search
+msgid "Name"
+msgstr "Nombre"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_application_need_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_student_need_hostel
+msgid "Need Hostel Facility"
+msgstr "Necesita Hotel"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel_leave.py:14
+#: code:addons/education_hostel/models/hostel_leave.py:74
+#: code:addons/education_hostel/models/hostel_leave.py:75
+#: code:addons/education_hostel/models/hostel_member.py:19
+#: code:addons/education_hostel/models/hostel_member.py:52
+#: code:addons/education_hostel/models/hostel_member.py:53
+#, python-format
+msgid "New"
+msgstr "New"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_number_of_days
+msgid "Number of Days"
+msgstr "Número de días"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_phone
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_room_amenity_qty
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel_room.py:126
+#, python-format
+msgid "Quantity must be positive"
+msgstr "La cantidad debe ser positiva"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Reallocate"
+msgstr "Redistribuir"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_reason
+msgid "Reason"
+msgstr "Motivo"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.edu_leave_form
+msgid "Refuse"
+msgstr "Rechazar"
+
+#. module: education_hostel
+#: selection:education.hostel_leave,state:0
+msgid "Refused"
+msgstr "Rechazado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_request_id
+msgid "Request ID"
+msgstr "ID de solicitud"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_floor_responsible
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_responsible
+msgid "Responsible Staff"
+msgstr "Personal responsable"
+
+#. module: education_hostel
+#: model:ir.actions.act_window,name:education_hostel.action_edu_room
+#: model:ir.model,name:education_hostel.model_education_room
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_room
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_hostel_room_rel2
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_list_room_mem_rel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_room_member_rel
+#: model:ir.model.fields,field_description:education_hostel.field_education_student_room
+#: model:ir.ui.menu,name:education_hostel.child_edu_room
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_room_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_room_tree
+msgid "Room"
+msgstr "Habitación"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_room_form
+msgid "Room Amenities"
+msgstr "Servicios en la habitación"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_room_amenity
+msgid "Room Amenity"
+msgstr "Servicio en la habitación"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel_room.py:45
+#, python-format
+msgid "Room Capacity is Over"
+msgstr "La capacidad de la habitación ha terminado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_room_code
+msgid "Room Code"
+msgstr "Código de habitación"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_education_room_member
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_room_member
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_room_member_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_room_member_tree
+msgid "Room Member"
+msgstr "Miembro de la habitación"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_room_members
+msgid "Room Members"
+msgstr "Miembros de la habitación"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_room_name
+msgid "Room Name"
+msgstr "Nombre de habitación"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_room_rent
+msgid "Room Rent"
+msgstr "Alquiler de la habitación"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_kanban
+msgid "Room:"
+msgstr "Habitación:"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_hostel_rooms
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+msgid "Rooms"
+msgstr "Habitaciones"
+
+#. module: education_hostel
+#: selection:mess.food,week_list:0
+msgid "Saturday"
+msgstr "Sábado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_snack
+msgid "Snack"
+msgstr "Snack"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_state_id
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_state_id
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "State"
+msgstr "Estado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_state
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_leave_state
+msgid "Status"
+msgstr "Estado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_street
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_street
+msgid "Street"
+msgstr "Calle"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Street 2..."
+msgstr "Calle 2..."
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Street..."
+msgstr "Calle..."
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_street2
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: education_hostel
+#: selection:education.host_std,member_type:0
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_student_id
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_education_student
+msgid "Student record"
+msgstr "Expediente de estudiante"
+
+#. module: education_hostel
+#: code:addons/education_hostel/models/hostel.py:83
+#: code:addons/education_hostel/models/hostel_room.py:69
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_total_students
+#: model:ir.ui.menu,name:education_hostel.child_edu_admision1
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_room_form
+#, python-format
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_kanaban
+msgid "Students:"
+msgstr "Estudiantes:"
+
+#. module: education_hostel
+#: selection:mess.food,week_list:0
+msgid "Sunday"
+msgstr "Domingo"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_supper
+msgid "Supper"
+msgstr "Cena"
+
+#. module: education_hostel
+#: model:ir.model.fields,help:education_hostel.field_education_hostel_leave_state
+msgid ""
+"The status is set to 'To Submit', when a leave request is created.\n"
+"The status is 'To Approve', when leave request is confirmed by user.\n"
+"The status is 'Refused', when leave request is refused by manager.\n"
+"The status is 'Approved', when leave request is approved by manager."
+msgstr ""
+"El estado se establece en 'Para enviar', cuando se crea una solicitud de licencia.\n"
+"El estado es 'Para aprobar', cuando el usuario confirma la solicitud de ausencia.\n"
+"El estado es 'Rechazado', cuando el gerente rechaza la solicitud de licencia.\n"
+"El estado es 'Aprobado', cuando la solicitud de licencia es aprobada por el gerente."
+
+#. module: education_hostel
+#: model:ir.model.fields,help:education_hostel.field_education_host_std_image
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Este campo contiene la imagen utilizada como avatar para este contacto, limitada a 1024x1024 px"
+
+#. module: education_hostel
+#: selection:mess.food,week_list:0
+msgid "Thursday"
+msgstr "Jueves"
+
+#. module: education_hostel
+#: selection:education.hostel_leave,state:0
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_leave_search
+msgid "To Approve"
+msgstr "Para Aprobar"
+
+#. module: education_hostel
+#: selection:education.hostel_leave,state:0
+msgid "To Submit"
+msgstr "Enviar"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_total
+msgid "Total Fee"
+msgstr "Total pago"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_hostel_floors
+msgid "Total Floors"
+msgstr "Pisos totales"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_total_rooms
+msgid "Total Rooms"
+msgstr "Habitaciones totales"
+
+#. module: education_hostel
+#: selection:mess.food,week_list:0
+msgid "Tuesday"
+msgstr "Martes"
+
+#. module: education_hostel
+#: model:res.groups,name:education_hostel.group_hostel_management_user
+msgid "User"
+msgstr "Usuario"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_vacancy
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_vacancy
+msgid "Vacancy"
+msgstr "Vacante"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_kanaban
+msgid "Vacancy:"
+msgstr "Vacante:"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "Vacate"
+msgstr "Desocupar"
+
+#. module: education_hostel
+#: selection:education.host_std,state:0
+msgid "Vacated"
+msgstr "Desocupado"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_vacated_date
+#: model:ir.model.fields,field_description:education_hostel.field_education_room_member_vacated_date
+msgid "Vacated Date"
+msgstr "Fecha de salida"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_hostel_warden
+#: model:res.groups,name:education_hostel.group_hostel_management_manager
+msgid "Warden"
+msgstr "Guardián"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_kanaban
+msgid "Warden:"
+msgstr "Guardián:"
+
+#. module: education_hostel
+#: selection:mess.food,week_list:0
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_mess_food_week_list
+msgid "Weekday"
+msgstr "Día de la semana"
+
+#. module: education_hostel
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_form
+#: model:ir.ui.view,arch_db:education_hostel.view_edu_hostel_member_form
+msgid "ZIP"
+msgstr "Zip"
+
+#. module: education_hostel
+#: model:ir.model.fields,field_description:education_hostel.field_education_host_std_zip
+#: model:ir.model.fields,field_description:education_hostel.field_education_hostel_zip
+msgid "Zip"
+msgstr "Zip"
+
+#. module: education_hostel
+#: model:ir.model,name:education_hostel.model_education_room_list
+msgid "education.room_list"
+msgstr "Lista de habitaciones"

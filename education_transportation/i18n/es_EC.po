@@ -1,0 +1,324 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* education_transportation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-29 23:34+0000\n"
+"PO-Revision-Date: 2019-08-29 18:40-0500\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_EC\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_academic_year_id
+msgid "Academic Year"
+msgstr "Año académico"
+
+#. module: education_transportation
+#: model:ir.model,name:education_transportation.model_education_application
+msgid "Applications for the admission"
+msgstr "Solicitudes de admisión."
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_color
+msgid "Color Index"
+msgstr "Índice de color"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_company_id
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_cost
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_cost
+msgid "Cost"
+msgstr "Costo"
+
+#. module: education_transportation
+#: model:ir.actions.act_window,help:education_transportation.action_edu_trip
+msgid "Create Route."
+msgstr "Crear ruta."
+
+#. module: education_transportation
+#: model:ir.actions.act_window,help:education_transportation.action_edu_stop
+msgid "Create Stage."
+msgstr "Crear etapas."
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_stop_create_uid
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_create_uid
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_create_uid
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_create_uid
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_create_uid
+msgid "Created by"
+msgstr "Creado por:"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_stop_create_date
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_create_date
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_create_date
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_create_date
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_create_date
+msgid "Created on"
+msgstr "Creado"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_kanaban
+msgid "Delete"
+msgstr "Suprimir"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_stop_display_name
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_display_name
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_display_name
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_display_name
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_driver
+msgid "Driver"
+msgstr "Conductor"
+
+#. module: education_transportation
+#: model:ir.model.fields,help:education_transportation.field_edu_vehicle_driver
+msgid "Driver of the vehicle"
+msgstr "Conductor del vehículo"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_evening_timing
+msgid "Duration from Destination"
+msgstr "Duración del destino"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_morning_timing
+msgid "Duration from Source"
+msgstr "Duración desde la fuente"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_kanaban
+msgid "Edit"
+msgstr "Editar"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_evening_timing
+msgid "Evening Start Timing"
+msgstr "Hora de inicio de la tarde"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_src_loc
+msgid "From"
+msgstr "De"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_stop_id
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_id
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_id
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_id
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_id
+msgid "ID"
+msgstr "ID"
+
+#. module: education_transportation
+#: model:ir.model,name:education_transportation.model_fleet_vehicle
+msgid "Information on a vehicle"
+msgstr "Información sobre un vehículo"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_stop___last_update
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle___last_update
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop___last_update
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip___last_update
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop___last_update
+msgid "Last Modified on"
+msgstr "Fecha de modificación"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_stop_write_uid
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_write_uid
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_write_uid
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_write_uid
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_write_uid
+msgid "Last Updated by"
+msgstr "Ultima Actualización por"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_stop_write_date
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_write_date
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_write_date
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_write_date
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_write_date
+msgid "Last Updated on"
+msgstr "Actualizado en"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_student_location
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_morning_timing
+msgid "Morning Start Timing"
+msgstr "Hora de inicio en la mañana"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_stop_name
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_stop_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_application_need_transportation_facility
+#: model:ir.model.fields,field_description:education_transportation.field_education_student_need_transportation_facility
+msgid "Need Transportation Facility"
+msgstr "Necesita transporte"
+
+#. module: education_transportation
+#: model:ir.actions.act_window,name:education_transportation.action_edu_trip
+#: model:ir.model,name:education_transportation.model_education_trip
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_trip_rel
+#: model:ir.model.fields,field_description:education_transportation.field_education_student_trip_id
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_name
+#: model:ir.ui.menu,name:education_transportation.edu_trip_1
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_form
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_tree
+msgid "Route"
+msgstr "Ruta"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_form
+msgid "Route.."
+msgstr "Ruta.."
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_stop_sequence
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_stop_sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: education_transportation
+#: code:addons/education_transportation/models/education_trip.py:33
+#, python-format
+msgid "Source and Destination Cannot be same Stage"
+msgstr "El origen y el destino no pueden ser la misma etapa"
+
+#. module: education_transportation
+#: model:ir.actions.act_window,name:education_transportation.action_edu_stop
+#: model:ir.model,name:education_transportation.model_edu_stop
+#: model:ir.model,name:education_transportation.model_education_stop
+#: model:ir.ui.menu,name:education_transportation.edu_stop_1
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_stop_tree
+msgid "Stage"
+msgstr "Etapa"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_form
+msgid "Stage Details"
+msgstr "Detalles de la etapa"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_stop_stop_name
+msgid "Stage Name"
+msgstr "Nombre de etapa"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_form
+msgid "Stop"
+msgstr "Parada"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop
+msgid "Stops"
+msgstr "Paradas"
+
+#. module: education_transportation
+#: model:ir.model,name:education_transportation.model_education_student
+msgid "Student record"
+msgstr "Expediente de estudiante"
+
+#. module: education_transportation
+#: code:addons/education_transportation/models/education_trip.py:52
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_form
+#, python-format
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_dest_loc
+msgid "To"
+msgstr "Hasta"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_total_students
+msgid "Total Students"
+msgstr "Total Estudiantes"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_kanaban
+msgid "Total Students:"
+msgstr "Total Estudiantes:"
+
+#. module: education_transportation
+#: model:ir.ui.menu,name:education_transportation.edu_trip
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_student_inherit0
+#: model:ir.ui.view,arch_db:education_transportation.view_education_application_form3
+msgid "Transportation"
+msgstr "Transporte"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_student_inherit0
+msgid "Transportation Details"
+msgstr "Detalles de transporte"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_student_trans_cost
+msgid "Transportation Fee"
+msgstr "Pago de transporte"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_stop_stop_trip_rel
+msgid "Trip"
+msgstr "Viaje"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_vehicle
+#: model:ir.model.fields,field_description:education_transportation.field_education_trip_vehicle
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: education_transportation
+#: model:ir.model.fields,field_description:education_transportation.field_edu_vehicle_vehicle_no
+#: model:ir.model.fields,field_description:education_transportation.field_fleet_vehicle_vehicle_number
+msgid "Vehicle Code"
+msgstr "Código del vehículo"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_form
+msgid "Vehicle Details"
+msgstr "Detalles del vehículo"
+
+#. module: education_transportation
+#: model:ir.ui.view,arch_db:education_transportation.view_edu_trip_form
+msgid "Vehicles"
+msgstr "Vehículos"
+
+#. module: education_transportation
+#: model:ir.model,name:education_transportation.model_edu_vehicle
+msgid "edu.vehicle"
+msgstr "Vehículos"
+
+#. module: education_transportation
+#: model:ir.model,name:education_transportation.model_education_trip_stop
+msgid "education.trip_stop"
+msgstr "Paradas del viaje"

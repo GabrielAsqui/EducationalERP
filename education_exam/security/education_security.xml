@@ -6,7 +6,7 @@
         <field name="model_id" ref="education_exam.model_education_exam_valuation" />
         <field name="groups"
             eval="[(4, ref('education_core.group_education_faculty'))]" />
-        <field name="domain_force"> [('teachers_id.employee_id.user_id','=',user.id)]</field>
+        <field name="domain_force"> [('faculty_id.employee_id.user_id','=',user.id)]</field>
     </record>
 
     <record model="ir.rule" id="hod_exam_valuation_rule">

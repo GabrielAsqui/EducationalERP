@@ -32,7 +32,7 @@ class EducationExamValuation(models.Model):
     exam_id = fields.Many2one('education.exam', string='Exam', required=True, domain=[('state', '=', 'ongoing')])
     class_id = fields.Many2one('education.class', string='Class', required=True)
     division_id = fields.Many2one('education.class.division', string='Division', required=True)
-    teachers_id = fields.Many2one('education.faculty', string='Evaluator')
+    faculty_id = fields.Many2one('education.faculty', string='Faculty')
     mark = fields.Float(string='Max Mark', required=True)
     pass_mark = fields.Float(string='Pass Mark', required=True)
     state = fields.Selection([('draft', 'Draft'), ('completed', 'Completed'), ('cancel', 'Canceled')], default='draft')
