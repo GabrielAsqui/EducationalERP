@@ -37,6 +37,7 @@
         'views/timetable_schedule.xml',
         'views/period_configuration_view.xml',
         'views/class_timetable_view.xml',
+        'reports/time_table_reports.xml',
         'reports/education_time_table_report.xml',
     ],
 

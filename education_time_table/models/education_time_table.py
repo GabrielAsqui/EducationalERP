@@ -66,6 +66,12 @@ class EducationTimeTable(models.Model):
             i.division_name = i.class_division.division_id
             i.academic_year = i.class_division.academic_year_id
             # i.write({'academic_year': i.class_division.academic_year_id})
+    # methods for report
+    @api.multi
+    def report_periods(self):
+        period_obj_list_dic = self.env["timetable.period"].search_read([],['id','time_from','time_to'])
+        print('el list dict******************************',period_obj_list_dic)
+        return period_obj_list_dic
 
 
 class EducationTimeTableSchedule(models.Model):

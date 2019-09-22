@@ -1,6 +1,72 @@
+table {
+    border-collapse: collapse;
+}
 td {
     height: 60px;
 }
 .dia {
     width:150px
+}
+.titulo1{
+    background-color: #1e88e5;
+    color: white;
+}
+.titulo2{
+    background-color: #82b1ff;
+}
+.titulo3{
+    background-color: #bbdefb;
+}
+.firma{
+    height: 50px;
+}
+.textSupJust{
+    text-align: justify;
+    vertical-align: top;
+}
+.textSupCent{
+    vertical-align: top;
+    text-align: center;
+}
+.textSup{
+    vertical-align: top;
+}
+.textJust{
+    text-align: justify;
+}
+.textPeq{
+    font-size: 0.875em
+}
+.borderTop{
+    border-top: 1px solid #bbdefb;
+}
+.borderBotton{
+    border-bottom: 1px solid #bbdefb;
+}
+.borderRight{
+    border-right: 1px solid #bbdefb;
+}
+.border1Right{
+    border-right: 1px solid #1e88e5
+}
+.border2Right{
+    border-right: 1px solid #82b1ff
+}
+.borderLeft{
+    border-left: 1px solid #bbdefb;
+}
+.border1Left{
+    border-left: 1px solid #1e88e5
+}
+.border1Botton{
+    border-bottom: 1px solid #1e88e5;
+}
+.border2Botton{
+    border-bottom: 1px solid #82b1ff
+}
+.padd {
+    padding: 5px;
+}
+.mayus{
+    text-transform: uppercase;
 }

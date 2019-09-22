@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <report id="action_report_time_table_translated"
+            string="Time Table"
+            model="education.timetable"
+            report_type="qweb-html"
+            file="education_time_table.report_time_table_translated"
+            name="education_time_table.report_time_table_translated"
+    />
+</odoo>

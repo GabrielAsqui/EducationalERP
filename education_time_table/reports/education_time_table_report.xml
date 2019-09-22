@@ -2,13 +2,7 @@
 <!DOCTYPE xml>
 <odoo>
     <data>
-        <report id="report_time_table"
-            string="Time Table"
-            model="education.timetable"
-            report_type="qweb-pdf"
-            name="education_time_table.report_timetable_template"/>
-
-        <template id="report_timetable_template">
+        <template id="report_time_table_template">
             <t t-call="web.html_container">
                 <t t-call="web.external_layout">
                     <div class="header">
@@ -17,150 +11,205 @@
                         <link rel='stylesheet' type='text/css' href="/education_time_table/static/src/css/education_time_table_report_style.css" media="screen, print"/>
                         <div>
                             <t t-foreach="docs" t-as="record">
-                                <table class="table-bordered" width="100%">
+                                <table class="" width="100%">
                                     <tbody>
                                         <tr>
                                             <t t-foreach="request.env['res.company'].browse(1)" t-as="comp">
-                                                <th colspan="6" class="text-center"><span t-field="comp.name"/></th>
-                                            </t>                                       
+                                                <th colspan="6" class="text-center titulo1"><span t-field="comp.name"/></th>
+                                            </t>
+                                            <th colspan="1" rowspan="3" class="text-center titulo2">
+                                                School year: <br/><span t-field="record.academic_year.name"/>
+                                            </th>                                       
                                         </tr>
                                         <tr >
-                                            <th colspan="6" class="text-center">HORARIO DE CLASES</th>
-                                        </tr>
-                                        <tr >
-                                            <th colspan="6" class="text-center">
-                                                Año lectivo: <span t-field="record.academic_year.name"/>
-                                            </th>
+                                            <th colspan="6" class="text-center titulo1">TIME TABLE</th>
                                         </tr>
                                         <tr class="active text-center">
-                                            <th colspan="6" class="text-center"><span t-field="record.class_division"/></th>
+                                            <th colspan="6" class="text-center titulo2"><span t-field="record.class_division"/></th>
                                         </tr>
                                         <tr>
-                                            <th class="text-center" colspan="1">HORA</th>
-                                            <th class="text-center" colspan="1">LUNES</th>
-                                            <th class="text-center" colspan="1">MARTES</th>
-                                            <th class="text-center" colspan="1">MIERCOLES</th>
-                                            <th class="text-center" colspan="1">JUEVES</th>
-                                            <th class="text-center" colspan="1">VIERNES</th>
+                                            <th class="text-center titulo3" colspan="2">TIME</th>
+                                            <th class="text-center titulo3" colspan="1">MONDAY</th>
+                                            <th class="text-center titulo3" colspan="1">TUESDAY</th>
+                                            <th class="text-center titulo3" colspan="1">WEDNESDAY</th>
+                                            <th class="text-center titulo3" colspan="1">THURSDAY</th>
+                                            <th class="text-center titulo3" colspan="1">FRIDAY</th>
                                         </tr>
                                         <tr>
-                                            <td colspan="1">
-                                                <table class="table-bordered" width="100%">
+                                            <t t-set="periods_list_dict" t-value="record.report_periods()"/>
+                                            <td colspan="2">
+                                                <table class="" width="100%">
                                                     <tbody>
                                                         <t t-set="periodos" t-value="0"/>
                                                         <t t-set="numMat" t-value="0"/>
-                                                        <tr t-foreach="record.timetable_mon" t-as="tt_mon">                                           
-                                                            <td ><t t-esc="'%02d:%02d' % (int(tt_mon.time_from), tt_mon.time_from % 1 * 60)" /></td>
-                                                            <td ><t t-esc="'%02d:%02d' % (int(tt_mon.time_till), tt_mon.time_till % 1 * 60)" /></td>
+                                                        <tr t-foreach="periods_list_dict" t-as="period_dict" class="borderLeft borderBotton">                                           
+                                                            <td ><t t-esc="'%02d:%02d' % (int(period_dict['time_from']), period_dict['time_from'] % 1 * 60)" /></td>
+                                                            <td ><t t-esc="'%02d:%02d' % (int(period_dict['time_to']), period_dict['time_to'] % 1 * 60)" /></td>
                                                             <t t-set="periodos" t-value="periodos + 1"/>
                                                         </tr>
                                                     </tbody>
                                                 </table>
                                             </td>
+                                            <t t-set="var_subject" t-value="''"/>
+                                            <t t-set="var_degree" t-value="''"/>
+                                            <t t-set="var_faculty" t-value="''"/>
                                             <td class="dia" colspan="1">
-                                                <table class="table-bordered" width="100%">
+                                                <table class="" width="100%">
                                                     <tbody>
-                                                        <tr t-foreach="record.timetable_mon" t-as="tt_mon">                                           
-                                                            <td class="dia">
-                                                                <span t-field="tt_mon.subject"/><br />
-                                                                <small>
-                                                                    <span t-field="tt_mon.faculty_id.degree"/>
-                                                                    <span t-field="tt_mon.faculty_id.name"/>
-                                                                </small>
-                                                            </td>
+                                                    <t t-foreach="periods_list_dict" t-as="period_dict">
+                                                        <t t-foreach="record.timetable_mon" t-as="tt_mon">
+                                                            <t t-if="period_dict['id'] == tt_mon.period_id.id">
+                                                                <t t-set="var_subject" t-value="tt_mon.subject.name"/>
+                                                                <t t-set="var_degree" t-value="tt_mon.faculty_id.degree.name"/>
+                                                                <t t-set="var_faculty" t-value="tt_mon.faculty_id.name"/>
+                                                            </t>
+                                                        </t>
+                                                        <tr class="borderBotton"> 
+                                                            <t t-if="var_subject != ''">
+                                                                <td class="dia borderLeft">
+                                                                    <span t-esc="var_subject"/><br />
+                                                                    <small>
+                                                                        <span t-esc="var_degree"/>
+                                                                        <span t-esc="var_faculty"/>
+                                                                    </small>
+                                                                </td>
+                                                            </t>
+                                                            <t t-else="">
+                                                                <td class="dia borderLeft">&#160;</td>
+                                                            </t>
                                                         </tr>
+                                                        <t t-set="var_subject" t-value="''"/>
+                                                        <t t-set="var_degree" t-value="''"/>
+                                                        <t t-set="var_faculty" t-value="''"/>
+                                                    </t>
                                                     </tbody>
                                                 </table>
                                             </td>
                                             <td class="dia" colspan="1">
-                                                <table class="table-bordered" width="100%">
+                                                <table class="" width="100%">
                                                     <tbody>
-                                                        <tr t-foreach="record.timetable_tue" t-as="tt_tue">                                           
-                                                            <td class="dia"><span t-field="tt_tue.subject"/><br />
-                                                                <small>
-                                                                    <span t-field="tt_tue.faculty_id.degree"/>
-                                                                    <span t-field="tt_tue.faculty_id.name"/>
-                                                                </small>
-                                                            </td>
-                                                            <t t-set="numMat" t-value="numMat + 1"/>
-                                                        </tr>
-                                                        <t t-if="numMat &lt; periodos">
-                                                            <t t-foreach="periodos-numMat" t-as="i">
-                                                                <tr>
-                                                                    <td class="dia"><p>&#160;</p></td>
-                                                                </tr>
+                                                    <t t-foreach="periods_list_dict" t-as="period_dict">
+                                                        <t t-foreach="record.timetable_tue" t-as="tt_tue">
+                                                            <t t-if="period_dict['id'] == tt_tue.period_id.id">
+                                                                <t t-set="var_subject" t-value="tt_tue.subject.name"/>
+                                                                <t t-set="var_degree" t-value="tt_tue.faculty_id.degree.name"/>
+                                                                <t t-set="var_faculty" t-value="tt_tue.faculty_id.name"/>
                                                             </t>
                                                         </t>
-                                                        <t t-set="numMat" t-value="0"/>
+                                                        <tr class="borderBotton"> 
+                                                            <t t-if="var_subject != ''">
+                                                                <td class="dia borderLeft">
+                                                                    <span t-esc="var_subject"/><br />
+                                                                    <small>
+                                                                        <span t-esc="var_degree"/>
+                                                                        <span t-esc="var_faculty"/>
+                                                                    </small>
+                                                                </td>
+                                                            </t>
+                                                            <t t-else="">
+                                                                <td class="dia borderLeft">&#160;</td>
+                                                            </t>
+                                                        </tr>
+                                                        <t t-set="var_subject" t-value="''"/>
+                                                        <t t-set="var_degree" t-value="''"/>
+                                                        <t t-set="var_faculty" t-value="''"/>
+                                                    </t>
                                                     </tbody>
                                                 </table>
                                             </td>
                                             <td class="dia" colspan="1">
-                                                <table class="table-bordered" width="100%">
+                                                <table class="" width="100%">
                                                     <tbody>
-                                                        <tr t-foreach="record.timetable_wed" t-as="tt_wed">                                           
-                                                            <td class="dia"><span t-field="tt_wed.subject"/><br />
-                                                                <small>
-                                                                    <span t-field="tt_wed.faculty_id.degree"/>
-                                                                    <span t-field="tt_wed.faculty_id.name"/>
-                                                                </small>
-                                                            </td>
-                                                            <t t-set="numMat" t-value="numMat + 1"/>
-                                                        </tr>
-                                                        <t t-if="numMat &lt; periodos">
-                                                            <t t-foreach="periodos-numMat" t-as="i">
-                                                                <tr>
-                                                                    <td class="dia"><p>&#160;</p></td>
-                                                                </tr>
+                                                    <t t-foreach="periods_list_dict" t-as="period_dict">
+                                                        <t t-foreach="record.timetable_wed" t-as="tt_wed">
+                                                            <t t-if="period_dict['id'] == tt_wed.period_id.id">
+                                                                <t t-set="var_subject" t-value="tt_wed.subject.name"/>
+                                                                <t t-set="var_degree" t-value="tt_wed.faculty_id.degree.name"/>
+                                                                <t t-set="var_faculty" t-value="tt_wed.faculty_id.name"/>
                                                             </t>
                                                         </t>
-                                                        <t t-set="numMat" t-value="0"/>
+                                                        <tr class="borderBotton"> 
+                                                            <t t-if="var_subject != ''">
+                                                                <td class="dia borderLeft">
+                                                                    <span t-esc="var_subject"/><br />
+                                                                    <small>
+                                                                        <span t-esc="var_degree"/>
+                                                                        <span t-esc="var_faculty"/>
+                                                                    </small>
+                                                                </td>
+                                                            </t>
+                                                            <t t-else="">
+                                                                <td class="dia borderLeft">&#160;</td>
+                                                            </t>
+                                                        </tr>
+                                                        <t t-set="var_subject" t-value="''"/>
+                                                        <t t-set="var_degree" t-value="''"/>
+                                                        <t t-set="var_faculty" t-value="''"/>
+                                                    </t>
                                                     </tbody>
                                                 </table>
                                             </td>
                                             <td class="dia" colspan="1">
-                                                <table class="table-bordered" width="100%">
+                                                <table class="" width="100%">
                                                     <tbody>
-                                                        <tr t-foreach="record.timetable_thur" t-as="tt_thur">                                           
-                                                            <td class="dia"><span t-field="tt_thur.subject"/><br />
-                                                                <small>
-                                                                    <span t-field="tt_thur.faculty_id.degree"/>
-                                                                    <span t-field="tt_thur.faculty_id.name"/>
-                                                                </small>
-                                                            </td>
-                                                            <t t-set="numMat" t-value="numMat + 1"/>
-                                                        </tr>
-                                                        <t t-if="numMat &lt; periodos">
-                                                            <t t-foreach="periodos-numMat" t-as="i">
-                                                                <tr>
-                                                                    <td class="dia"><p>&#160;</p></td>
-                                                                </tr>
+                                                    <t t-foreach="periods_list_dict" t-as="period_dict">
+                                                        <t t-foreach="record.timetable_thur" t-as="tt_thur">
+                                                            <t t-if="period_dict['id'] == tt_thur.period_id.id">
+                                                                <t t-set="var_subject" t-value="tt_thur.subject.name"/>
+                                                                <t t-set="var_degree" t-value="tt_thur.faculty_id.degree.name"/>
+                                                                <t t-set="var_faculty" t-value="tt_thur.faculty_id.name"/>
                                                             </t>
                                                         </t>
-                                                        <t t-set="numMat" t-value="0"/>
+                                                        <tr class="borderBotton"> 
+                                                            <t t-if="var_subject != ''">
+                                                                <td class="dia borderLeft">
+                                                                    <span t-esc="var_subject"/><br />
+                                                                    <small>
+                                                                        <span t-esc="var_degree"/>
+                                                                        <span t-esc="var_faculty"/>
+                                                                    </small>
+                                                                </td>
+                                                            </t>
+                                                            <t t-else="">
+                                                                <td class="dia borderLeft">&#160;</td>
+                                                            </t>
+                                                        </tr>
+                                                        <t t-set="var_subject" t-value="''"/>
+                                                        <t t-set="var_degree" t-value="''"/>
+                                                        <t t-set="var_faculty" t-value="''"/>
+                                                    </t>
                                                     </tbody>
                                                 </table>
                                             </td>
                                             <td class="dia" colspan="1">
-                                                <table class="table-bordered" width="100%">
+                                                <table class="" width="100%">
                                                     <tbody>
-                                                        <tr t-foreach="record.timetable_fri" t-as="tt_fri">                                           
-                                                            <td class="dia"><span t-field="tt_fri.subject"/><br />
-                                                                <small>
-                                                                    <span t-field="tt_fri.faculty_id.degree"/>
-                                                                    <span t-field="tt_fri.faculty_id.name"/>
-                                                                </small>
-                                                            </td>
-                                                        <t t-set="numMat" t-value="numMat + 1"/>
-                                                        </tr>
-                                                        <t t-if="numMat &lt; periodos">
-                                                            <t t-foreach="periodos-numMat" t-as="i">
-                                                                <tr>
-                                                                    <td class="dia"><p>&#160;</p></td>
-                                                                </tr>
+                                                    <t t-foreach="periods_list_dict" t-as="period_dict">
+                                                        <t t-foreach="record.timetable_fri" t-as="tt_fri">
+                                                            <t t-if="period_dict['id'] == tt_fri.period_id.id">
+                                                                <t t-set="var_subject" t-value="tt_fri.subject.name"/>
+                                                                <t t-set="var_degree" t-value="tt_fri.faculty_id.degree.name"/>
+                                                                <t t-set="var_faculty" t-value="tt_fri.faculty_id.name"/>
                                                             </t>
                                                         </t>
-                                                        <t t-set="numMat" t-value="0"/>
+                                                        <tr class="borderBotton"> 
+                                                            <t t-if="var_subject != ''">
+                                                                <td class="dia borderLeft borderRight">
+                                                                    <span t-esc="var_subject"/><br />
+                                                                    <small>
+                                                                        <span t-esc="var_degree"/>
+                                                                        <span t-esc="var_faculty"/>
+                                                                    </small>
+                                                                </td>
+                                                            </t>
+                                                            <t t-else="">
+                                                                <td class="dia borderLeft borderRight">&#160;</td>
+                                                            </t>
+                                                        </tr>
+                                                        <t t-set="var_subject" t-value="''"/>
+                                                        <t t-set="var_degree" t-value="''"/>
+                                                        <t t-set="var_faculty" t-value="''"/>
+                                                    </t>
                                                     </tbody>
                                                 </table>
                                             </td>
@@ -177,6 +226,11 @@
                 </t>
             </t>
         </template>
-        
+        <template id="report_time_table_translated">
+            <t t-call="education_time_table.report_time_table_template" t-lang="user.lang">
+                <t t-set="docs" t-value="docs">
+                </t>
+            </t>
+        </template>
     </data>
 </odoo>
